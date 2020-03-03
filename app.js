@@ -20,7 +20,7 @@ nextBtn.addEventListener('click', () => {
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 });
 
-prevBtn.addEventListener('click', () => {
+previousBtn.addEventListener('click', () => {
     if (counter <= 0) return;
     carouselSlide.style.transition = "transform 0.4s ease-in-out";
     counter--;
